@@ -1,0 +1,6 @@
+DELETE  http://localhost:3001/api/user/1/planes/20
+content-type: application/json
+
+{
+    "user":{"id": 1}
+}

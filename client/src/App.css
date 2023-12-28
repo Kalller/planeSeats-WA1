@@ -1,0 +1,110 @@
+/* Styles related to NavBar */
+
+
+.below-nav {
+  padding-top: 5rem;
+}
+
+.nav-style{
+
+  background-color: #2b5d88;
+
+}
+body {
+  background-image:  url("assets/clouds.jpg");
+  background-size:auto;
+  background-position:center;
+  background-position-y: -1200px;
+  background-repeat: no-repeat;
+}
+
+.home-page-card{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.home-page-card .col-md-4 {
+  flex: 0 0 auto;
+}
+.dynamic-alert {
+  display: inline-block;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: auto;
+  max-width: 100%;
+}
+.sticky-container {
+  position: sticky;
+  top: 100px;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  z-index: 100;
+  width:fit-content;
+  background-color: rgb(148, 197, 223);
+  border-radius: 10px;
+  display: flex;
+}
+
+.manual-form{
+
+  max-width: 200px;
+  margin: auto;
+
+}
+
+.seat-grid-1 {
+  display: grid;
+  gap: 15px;
+  top: 20px;
+  background-color: hsla(0, 0%, 100%, 0.418);
+  max-width: 400px;
+  margin: 0 auto;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 1rem;
+  padding-right:1rem;
+}
+
+.seat-grid-2 {
+  display: grid;
+  gap: 15px;
+  top: 20px;
+  background-color: hsla(0, 0%, 100%, 0.418);
+  max-width: 400px;
+  margin: 0 auto;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 1rem;
+  padding-right:1rem;
+}
+
+.seat-grid-3 {
+  display: grid;
+  gap: 15px;
+  top: 20px;
+  background-color: hsla(0, 0%, 100%, 0.418);
+  max-width: 400px;
+  margin: 0 auto;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 1rem;
+  padding-right:1rem;
+}
+
+.btn-squared {
+  width: 40px;
+  height: 40px;
+  padding: 0;
+  border-radius: 1;
+}
+
+.seat-count-container {
+  margin-top: 5rem;
+}
